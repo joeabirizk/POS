@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+pos
+</name>
+</assembly>
+<members>
+<member name="T:pos.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:pos.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:pos.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.jjusersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.client_tDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.item_tDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.order_detailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.order_tDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.user_tDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.jjusersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.client_tRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.item_tRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.order_detailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.order_tRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.user_tRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.jjusersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.client_tRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.item_tRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.order_detailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.order_tRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pos._J_JDataSet.user_tRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pos._J_JDataSetTableAdapters.jjusersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pos._J_JDataSetTableAdapters.client_tTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pos._J_JDataSetTableAdapters.item_tTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pos._J_JDataSetTableAdapters.order_detailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pos._J_JDataSetTableAdapters.order_tTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pos._J_JDataSetTableAdapters.user_tTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pos._J_JDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:pos._J_JDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(pos._J_JDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:pos._J_JDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(pos._J_JDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:pos._J_JDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(pos._J_JDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:pos._J_JDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:pos._J_JDataSetTableAdapters.TableAdapterManager.UpdateAll(pos._J_JDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:pos._J_JDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:pos._J_JDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
