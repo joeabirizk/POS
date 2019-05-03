@@ -29,14 +29,15 @@ Partial Class Main
         Me.StockToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InquiryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UsersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CurrencyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CustomersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CurrencyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClientsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.StockToolStripMenuItem, Me.InquiryToolStripMenuItem, Me.UsersToolStripMenuItem, Me.CustomersToolStripMenuItem, Me.CurrencyToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.StockToolStripMenuItem, Me.InquiryToolStripMenuItem, Me.UsersToolStripMenuItem, Me.CustomersToolStripMenuItem, Me.CurrencyToolStripMenuItem, Me.ClientsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -53,13 +54,13 @@ Partial Class Main
         'LogoutToolStripMenuItem
         '
         Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.LogoutToolStripMenuItem.Text = "Logout"
         '
         'ShutDownToolStripMenuItem
         '
         Me.ShutDownToolStripMenuItem.Name = "ShutDownToolStripMenuItem"
-        Me.ShutDownToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ShutDownToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.ShutDownToolStripMenuItem.Text = "Shut Down"
         '
         'StockToolStripMenuItem
@@ -80,17 +81,23 @@ Partial Class Main
         Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(47, 20)
         Me.UsersToolStripMenuItem.Text = "Users"
         '
+        'CustomersToolStripMenuItem
+        '
+        Me.CustomersToolStripMenuItem.Name = "CustomersToolStripMenuItem"
+        Me.CustomersToolStripMenuItem.Size = New System.Drawing.Size(112, 20)
+        Me.CustomersToolStripMenuItem.Text = "Customer History"
+        '
         'CurrencyToolStripMenuItem
         '
         Me.CurrencyToolStripMenuItem.Name = "CurrencyToolStripMenuItem"
         Me.CurrencyToolStripMenuItem.Size = New System.Drawing.Size(67, 20)
         Me.CurrencyToolStripMenuItem.Text = "Currency"
         '
-        'CustomersToolStripMenuItem
+        'ClientsToolStripMenuItem
         '
-        Me.CustomersToolStripMenuItem.Name = "CustomersToolStripMenuItem"
-        Me.CustomersToolStripMenuItem.Size = New System.Drawing.Size(112, 20)
-        Me.CustomersToolStripMenuItem.Text = "Customer History"
+        Me.ClientsToolStripMenuItem.Name = "ClientsToolStripMenuItem"
+        Me.ClientsToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
+        Me.ClientsToolStripMenuItem.Text = "Clients"
         '
         'Main
         '
@@ -117,4 +124,5 @@ Partial Class Main
     Friend WithEvents UsersToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CurrencyToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CustomersToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ClientsToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -53,3 +53,5 @@ C:\Users\admin\Desktop\GitProject\J-J-retails-master\J-J-retails-master\pos\pos\
 C:\Users\admin\Desktop\GitProject\J-J-retails-master\J-J-retails-master\pos\pos\obj\Debug\pos.pdb
 C:\Users\admin\Desktop\GitProject\J-J-retails-master\J-J-retails-master\pos\pos\obj\Debug\pos.Customers.resources
 C:\Users\admin\Desktop\GitProject\J-J-retails-master\J-J-retails-master\pos\pos\obj\Debug\pos.order.resources
+C:\Users\admin\Desktop\GitProject\J-J-retails-master\J-J-retails-master\pos\pos\obj\Debug\pos.currency2.resources
+C:\Users\admin\Desktop\GitProject\J-J-retails-master\J-J-retails-master\pos\pos\obj\Debug\pos.Clients.resources

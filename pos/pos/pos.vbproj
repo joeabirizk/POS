@@ -79,10 +79,22 @@
     <Compile Include="Client.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Clients.Designer.vb">
+      <DependentUpon>Clients.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clients.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CURRENCY.Designer.vb">
       <DependentUpon>CURRENCY.vb</DependentUpon>
     </Compile>
     <Compile Include="CURRENCY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="currency2.Designer.vb">
+      <DependentUpon>currency2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="currency2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Customers.Designer.vb">
@@ -159,8 +171,14 @@
     <EmbeddedResource Include="Client.resx">
       <DependentUpon>Client.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Clients.resx">
+      <DependentUpon>Clients.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CURRENCY.resx">
       <DependentUpon>CURRENCY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="currency2.resx">
+      <DependentUpon>currency2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customers.resx">
       <DependentUpon>Customers.vb</DependentUpon>

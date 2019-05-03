@@ -38,4 +38,9 @@
         Customers.Show()
 
     End Sub
+
+    Private Sub ClientsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClientsToolStripMenuItem.Click
+        Clients.Show()
+
+    End Sub
 End Class

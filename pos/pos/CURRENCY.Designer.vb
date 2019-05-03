@@ -25,7 +25,6 @@ Partial Class CURRENCY
         Me.components = New System.ComponentModel.Container()
         Me._J_JDataSet = New pos._J_JDataSet()
         Me.CurrencyBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-
         Me.TableAdapterManager = New pos._J_JDataSetTableAdapters.TableAdapterManager()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -49,22 +48,17 @@ Partial Class CURRENCY
         Me.CurrencyBindingSource.DataMember = "currency"
         Me.CurrencyBindingSource.DataSource = Me._J_JDataSet
         '
-        'CurrencyTableAdapter
-        '
-
-        '
         'TableAdapterManager
         '
         Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
         Me.TableAdapterManager.client_tTableAdapter = Nothing
-
+        Me.TableAdapterManager.Connection = Nothing
         Me.TableAdapterManager.item_tTableAdapter = Nothing
         Me.TableAdapterManager.jjusersTableAdapter = Nothing
         Me.TableAdapterManager.order_detailsTableAdapter = Nothing
         Me.TableAdapterManager.order_tTableAdapter = Nothing
         Me.TableAdapterManager.UpdateOrder = pos._J_JDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
         Me.TableAdapterManager.user_tTableAdapter = Nothing
-
         '
         'TextBox1
         '
